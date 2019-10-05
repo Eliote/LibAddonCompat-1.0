@@ -1,0 +1,6 @@
+package-as: LibAddonCompat-1.0
+
+ignore:
+    - .gitignore
+
+
