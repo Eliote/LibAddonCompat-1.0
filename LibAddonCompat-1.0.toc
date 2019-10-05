@@ -3,6 +3,5 @@
 ## Notes: Library to make addons compatible with classic and retail
 ## Author: Eliote
 ## Version: @project-version@
-## Dependencies: TitanClassic
 
 LibAddonCompat-1.0.xml
