@@ -1,4 +1,4 @@
-local MAJOR, MINOR = "LibAddonCompat-1.0", 7
+local MAJOR, MINOR = "LibAddonCompat-1.0", 8
 ---@class LibAddonCompat
 local LibAddonCompat = LibStub:NewLibrary(MAJOR, MINOR)
 if not LibAddonCompat then return end
@@ -47,7 +47,7 @@ function LibAddonCompat:GetProfessions()
 		skillMaxRank, isAbandonable, stepCost, rankCost, minLevel, skillCostType,
 		skillDescription = GetSkillLineInfo(skillIndex)
 
-		if not isHeader then
+		if skillName and not isHeader then
 			if isAbandonable then
 				-- primary
 				if not professions.first then
